@@ -1,8 +1,9 @@
-TypeScript Cypress Jest Demo
-===========================
+TypeScript Cypress Jest with "jest-dom" Demo
+============================================
 
-由于cypress和jest都使用定义了一些同名的全局函数，比如`describe/expect`等，所以会有冲突，
-解决办法是用两个tsconfig.json，把两边的定义分开。
+在使用Cypress与Jest的同时还使用`jest-dom`，看看它们之间有没有类型上的冲突。
+
+似乎分开配置tsconfig.json之后，可以没有冲突。
 
 ```
 npm install

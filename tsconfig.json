@@ -8,9 +8,6 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "types": [
-      "jest"
-    ]
+    "allowSyntheticDefaultImports": true
   }
 }
