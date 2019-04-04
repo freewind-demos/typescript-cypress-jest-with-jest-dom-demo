@@ -1,7 +1,8 @@
-TypeScript Jest Demo
+TypeScript Cypress Jest Demo
 ===========================
 
-使用typescript就需要在`jest.config.js`中使用`ts-jest`作为`preset`
+由于cypress和jest都使用定义了一些同名的全局函数，比如`describe/expect`等，所以会有冲突，
+解决办法是用两个tsconfig.json，把两边的定义分开。
 
 ```
 npm install
